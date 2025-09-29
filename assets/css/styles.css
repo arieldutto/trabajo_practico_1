@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea, #764ba2);
     display: flex;
@@ -90,6 +90,13 @@ button:hover {
 .card {
     padding: 1.5rem;
     text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 /* Footer */
