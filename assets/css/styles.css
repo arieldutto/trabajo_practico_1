@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea, #764ba2);
-    background-image: url(../img/unnamed.png);
+    background-image: url(./ISN);
     display: flex;
     flex-direction: column;
     color: white;
@@ -58,6 +58,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    opacity: 60%;
 }
 
 .hero .card {
@@ -110,10 +111,5 @@ footer {
 
 main {
     min-height: 100vh;
-    background-image: "./img/pas
-
-}
-
-;
 
 }
