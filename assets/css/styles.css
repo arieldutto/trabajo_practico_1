@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    min-height: 100vh;
 }
 
 /* Glassmorphism base */
@@ -109,7 +110,4 @@ footer {
     margin: 1rem;
 }
 
-main {
-    min-height: 100vh;
-
-}
+main {}
