@@ -118,6 +118,7 @@ footer {
     -webkit-backdrop-filter: blur(10px);
     padding: 2rem;
     color: white;
+    border-radius: 8%;
 }
 
 .footer-container {
