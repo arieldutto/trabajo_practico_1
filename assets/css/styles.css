@@ -95,6 +95,14 @@ button:hover {
     text-align: center;
 }
 
+/* Header */
+header {}
+
+/* main */
+main {
+    flex: 1;
+}
+
 /* Footer */
 footer {
     text-align: center;
