@@ -131,7 +131,7 @@ footer {
 }
 
 .footer-col {
-    flex: 1 1 200px;
+    flex: 1 1;
     /* al menos 200px, pero que pueda encoger si hace falta */
 }
 
