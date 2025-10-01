@@ -118,7 +118,7 @@ footer {
     -webkit-backdrop-filter: blur(10px);
     padding: 2rem;
     color: white;
-    border-radius: 16;
+    border-radius: 16px;
     opacity: 60%;
 }
 
