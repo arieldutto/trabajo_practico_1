@@ -212,3 +212,8 @@ footer {
     color: #00bcd4;
     /* cambia de color al pasar el mouse */
 }
+
+.contact p {
+    margin-bottom: 0.25rem;
+
+}
