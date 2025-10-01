@@ -218,6 +218,12 @@ footer {
 
 }
 
-.img-log {
-    width: 80px;
+.img-logo {
+    height: 50px;
+    /* ajusta la altura que quieras */
+    width: auto;
+    /* mantiene la proporción */
+    border-radius: 8px;
+    /* opcional: esquinas redondeadas */
+    margin-right: 1rem;
 }
