@@ -182,3 +182,32 @@ footer {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.footer-col.links ul {
+    list-style: none;
+    /* saca viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* coloca en fila */
+    gap: 1.5rem;
+    /* espacio entre links */
+}
+
+.footer-col.links li {
+    margin: 0;
+}
+
+.footer-col.links a {
+    color: white;
+    /* color de los links */
+    text-decoration: none;
+    /* sin subrayado */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-col.links a:hover {
+    color: #00bcd4;
+    /* cambia de color al pasar el mouse */
+}
