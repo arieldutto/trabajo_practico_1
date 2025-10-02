@@ -231,4 +231,8 @@ footer {
 .portada {
     width: 80%;
     height: 33vh;
+    margin: 0 auto;
+    /* centra horizontal */
+    background: #eee;
+    /* solo para ver el bloque */
 }
