@@ -66,6 +66,10 @@ nav a:hover {
     text-align: center;
 }
 
+.heri p {
+    justify-content: center;
+}
+
 button {
     margin-top: 1rem;
     padding: 0.7rem 1.2rem;
