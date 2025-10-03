@@ -21,7 +21,8 @@ body {
     /* cubre toda la pantalla */
     background-position: center;
     /* centrada */
-    background-repeat: no-repeat;/
+    background-repeat: no-repeat;
+    opacity: 70%;
 }
 
 /* Navbar */
