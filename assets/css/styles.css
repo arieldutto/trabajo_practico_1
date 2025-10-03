@@ -1,3 +1,5 @@
+@import url("./index.css");
+
 /* Reset */
 * {
     margin: 0;
@@ -15,16 +17,7 @@ body {
     min-height: 100vh;
 }
 
-/* Glassmorphism base */
-.glass {
-    background: rgba(255, 255, 255, 0.15);
-    opacity: 60%;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
+
 
 /* Navbar */
 nav {
@@ -51,45 +44,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero */
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    opacity: 60%;
-}
-
-.hero img {
-    width: 80%;
-    height: 33vh;
-    object-fit: cover;
-}
-
-.hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    /* opcional: efecto glass */
-    backdrop-filter: blur(5px);
-    /* opcional */
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.hero .card {
-    padding: 2rem;
-    text-align: center;
-}
-
-.hero p {
-    justify-content: center;
-}
 
 button {
     margin-top: 1rem;
@@ -107,18 +61,6 @@ button:hover {
     background: rgba(255, 255, 255, 0.4);
 }
 
-/* Grid de tarjetas */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
-}
-
-.card {
-    padding: 1.5rem;
-    text-align: center;
-}
 
 /* Header */
 header {}
