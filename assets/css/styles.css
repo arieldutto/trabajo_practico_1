@@ -38,6 +38,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 
 nav a:hover {
@@ -159,6 +160,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    flex-direction: column;
     /* espacio entre links */
 }
 

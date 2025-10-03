@@ -9,7 +9,8 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-* Hero */ .hero {
+/* Hero */
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
