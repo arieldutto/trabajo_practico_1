@@ -22,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
     margin: 1rem;
     flex-wrap: wrap;
 }
@@ -41,6 +41,12 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.glass-logo {
+    height: 50px;
+    width: auto;
+    border-radius: 16px;
 }
 
 @media (max-width: 768px) {
@@ -70,6 +76,10 @@ nav a:hover {
         display: block;
         width: 100%;
         padding: 0.5rem 0;
+    }
+
+    .glass-logo {
+        margin-bottom: 0.5rem;
     }
 }
 
