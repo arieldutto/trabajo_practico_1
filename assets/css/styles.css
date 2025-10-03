@@ -17,8 +17,6 @@ body {
     min-height: 100vh;
 }
 
-
-
 /* Navbar */
 nav {
     display: flex;
@@ -26,6 +24,7 @@ nav {
     align-items: center;
     padding: 1rem 2rem;
     margin: 1rem;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -38,7 +37,6 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    flex-wrap: wrap;
 }
 
 nav a:hover {
