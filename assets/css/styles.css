@@ -77,13 +77,6 @@ nav a:hover {
         width: 100%;
         padding: 0.5rem 0;
     }
-
-    .glass-logo {
-        height: 50px;
-        width: auto;
-        border-radius: 16px;
-        margin-bottom: 0.5rem;
-    }
 }
 
 button {
