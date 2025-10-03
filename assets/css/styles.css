@@ -10,11 +10,18 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    /*background: linear-gradient(135deg, #667eea, #764ba2);*/
     display: flex;
     flex-direction: column;
     color: white;
     min-height: 100vh;
+    background-image: url("../img/background.jpeg");
+    /* 🔄 poné la ruta correcta */
+    background-size: cover;
+    /* cubre toda la pantalla */
+    background-position: center;
+    /* centrada */
+    background-repeat: no-repeat;/
 }
 
 /* Navbar */
