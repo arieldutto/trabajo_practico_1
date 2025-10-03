@@ -43,6 +43,35 @@ nav a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        /* apila logo, título y menú */
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* cambia a vertical */
+        width: 100%;
+        /* ocupa todo el ancho */
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        /* centra el texto */
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}
 
 button {
     margin-top: 1rem;
