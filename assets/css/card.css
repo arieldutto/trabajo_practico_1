@@ -7,12 +7,15 @@
 }
 
 .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    /* adaptativo */
+    gap: 1.5rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 1rem;
-    opacity: 60%;
+    /* si querías transparencia en el contenedor usa rgba o quita opacity */
 }
 
 .cards-content {
