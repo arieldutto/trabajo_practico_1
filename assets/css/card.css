@@ -7,8 +7,7 @@
     padding: 2rem;
     text-align: center;
     color: whitesmoke;
-    opacity: 60%;
-    border-radius: 16px;
+
 }
 
 .cards-content {
@@ -20,4 +19,25 @@
     border-radius: 16px;
     border: 1px;
     ;
+}
+
+/* Cada tarjeta */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+    .cards-content {
+        grid-template-columns: 1fr;
+    }
 }
