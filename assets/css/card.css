@@ -29,11 +29,12 @@
     backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     transition: transform 0.3s ease;
-    opacity: 60%;
+    opacity: 70%;
 }
 
 .card:hover {
     transform: scale(1.05);
+    opacity: 90%;
 }
 
 /* Adaptación móvil */
