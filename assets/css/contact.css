@@ -13,8 +13,7 @@ form {
 }
 
 textarea,
-fieldset,
-button {
+fieldset {
     grid-column: 1 / -1;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3)
@@ -29,4 +28,21 @@ input {
     form {
         grid-template-columns: 1fr;
     }
+}
+
+.contact-select {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.contact-submit {
+    grid-column: 1 / -1;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.contact-reset {
+    grid-column: 1 / -1;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3)
 }
