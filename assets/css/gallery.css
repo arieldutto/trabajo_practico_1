@@ -6,7 +6,10 @@
     height: auto;
     object-fit: cover;
     justify-items: center;
-    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 2rem;
 }
 
 .gallery-grid img {
@@ -19,4 +22,9 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     /* Sombras suaves */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
