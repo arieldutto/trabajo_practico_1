@@ -50,6 +50,11 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.card h3 p {
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Adaptación móvil */
 @media (max-width: 768px) {
     .cards-content {
