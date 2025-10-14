@@ -196,7 +196,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    flex-direction: column;
+    flex-direction: row;
     /* espacio entre links */
 }
 
