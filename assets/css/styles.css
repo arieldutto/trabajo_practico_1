@@ -225,13 +225,21 @@ footer {
 
 .titulo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    /* ni muy fino ni muy pesado */
+    font-weight: 700;
     font-size: 2.4rem;
     color: #f0f0f0;
-    /* blanco suave, no brillante */
     text-align: center;
     letter-spacing: 1px;
-    /* sutil espaciado */
     margin: 1.5rem 0;
+}
+
+.titulo::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #00c6ff;
+    /* un color de acento */
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
 }
