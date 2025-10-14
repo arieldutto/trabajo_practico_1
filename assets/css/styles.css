@@ -222,3 +222,22 @@ footer {
     margin-bottom: 0.25rem;
 
 }
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    /* Fuente moderna */
+    font-size: 2.8rem;
+    /* Tamaño grande, jerárquico */
+    font-weight: 700;
+    /* Negrita intensa */
+    text-align: center;
+    /* Centrado visual */
+    margin: 1rem 0;
+    /* Espaciado vertical */
+    color: #ffffff;
+    /* Texto blanco (ajustable según fondo) */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    text-transform: uppercase;
+    /* Mayúsculas elegantes */
+}
