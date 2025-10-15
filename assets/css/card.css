@@ -30,13 +30,13 @@
     backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     transition: transform 0.3s ease;
-    opacity: 70%;
+    opacity: 85%;
     border-radius: 16px;
 }
 
 .card:hover {
     transform: scale(1.05);
-    opacity: 90%;
+    opacity: 98%;
 }
 
 .card img {
