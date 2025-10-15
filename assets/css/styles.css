@@ -125,6 +125,11 @@ footer {
     font-size: 0.9;
     border-radius: 16px;
     opacity: 60%;
+
+}
+
+.footer-glass h3 {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .footer-container {
